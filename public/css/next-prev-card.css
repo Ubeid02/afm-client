@@ -1,0 +1,18 @@
+.rental-container {
+width: 100%;
+overflow: hidden;
+padding: 20px 0;
+}
+.card {
+display: flex;
+transition: transform 0.5s ease;
+}
+.card-list-rental {
+flex: 0 0 auto;
+transition: all 0.3s ease;
+}
+.card-list-rental.active {
+transform: scale(1.05);
+z-index: 1;
+}
+
