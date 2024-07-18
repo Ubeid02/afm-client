@@ -58,10 +58,6 @@
             </div>
         </div>
         <div class="mutu-strategi relative mb-24">
-            <img src="img/hero1.jpg" alt="" class="w-full h-72 bg-repeat-x object-cover brightness-50">
-            <div class="text-about absolute top-16 inset-x-[540px]">
-                <h1 class="text-white font-extrabold text-3xl underline underline-offset-4 uppercase">tentang kami</h1>
-            </div>
             <div class="desc-mutu-strategi absolute top-36 inset-x-40">
                 <p class="text-white text-center text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vestibulum, felis id faucibus facilisis, lectus justo dapibus turpis, quis fringilla purus nisl vel arcu.</p>
             </div>
@@ -69,7 +65,7 @@
         <div class="location mb-24 text-center">
             <h2 class="text-blue-950 font-extrabold text-3xl underline underline-offset-4 uppercase">lokasi</h2>
             <div class="loc my-7">
-                <iframe class="w-full h-96" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.4736687390505!2d112.003682274434!3d-7.8453912779587265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7857b19db2ec79%3A0x8bb0d8289426d5e6!2sUniversitas%20Islam%20Kadiri-%20Kediri!5e0!3m2!1sid!2sid!4v1720705160234!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="w-full h-96" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.8210961857735!2d112.01836087455267!3d-7.702339276286545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784f3099cc0c4d%3A0x3522b666544c21b5!2sJl.%20Warujayeng%20-%20Kediri%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1721104804978!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
