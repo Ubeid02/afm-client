@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="css/next-prev-card.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/hero-slide.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+
+    {{-- CSS Swiper --}}
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
     <title>Anugerah Forklift Megantara</title>
 </head>
 <body class="font-karla">
@@ -29,6 +34,12 @@
     </footer>
 
     <script src="js/navbar.js"></script>
+    <script src="js/hero-slide.js"></script>
+    <script src="js/dashboard.js"></script>
     <script src="js/next-prev-card.js"></script>
+    <script src="js/about.js"></script>
+
+    {{-- JavaScript Swiper --}}
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>

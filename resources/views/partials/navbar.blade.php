@@ -2,7 +2,7 @@
     <div class="container mx-auto px-4 lg:px-40 bg-transparent text-white font-semibold text-lg">
         <div class="flex justify-between items-center lg:justify-center relative">
             <!-- Logo -->
-            <div class="p-3 mt-3 lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2">
+            <div class="p-3 mt-3 ml-7 lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2">
                 <a class="nav-brand" href="">
                     <img src="img/logo-afm.png" alt="Anugrah Forklift Megantara" class="h-20 w-auto">
                 </a>

@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.getElementsByTagName ('nav')[0];
     window.addEventListener('scroll', function(){
-        console.log(window.scrollY);
+        // console.log(window.scrollY);
         if (this.window.scrollY > 20){
             navbar.classList.replace('bg-transparent','nav-color');
         }
