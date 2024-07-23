@@ -1,4 +1,4 @@
-<nav class="box-border w-full z-30 bg-transparent fixed">
+ <nav class="box-border w-full z-30 bg-transparent fixed">
     <div class="container mx-auto px-4 lg:px-40 bg-transparent text-white font-semibold text-lg">
         <div class="flex justify-between items-center lg:justify-center relative">
             <!-- Logo -->
