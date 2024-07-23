@@ -8,18 +8,19 @@
             <div class="about">
                 <p class="text-white text-base mb-3 max-lg:text-xs">Menyediakan alat berat dengan jenis sangat lengkap untuk keperluan: konstruksi, pembangunan, penambangan, dan keperluan lainnya.</p>
                 <a href="#" class="text-white text-base max-lg:text-xs">Jl. Warujayeng - Kediri, Tanjungtani, Kec. Prambon, Kabupaten Nganjuk, Jawa Timur, Indonesia.</a>
+                <a href="#" class="text-white text-base max-lg:text-xs">Jl. Warujayeng - Kediri, Tanjungtani, Kec. Prambon, Kabupaten Nganjuk, Jawa Timur, Indonesia.</a>
             </div>
         </div>
-        <div class="contact mt-7 lg:ml-20 max-sm:ml-0">
+        <div class="contact mt-7 lg:ml-6 max-sm:ml-0">
             <h3 class="text-yellow-500 font-extrabold text-lg uppercase mb-0.5 pl-14 max-lg:text-md">hubungi kami</h3>
             <ul class="list-disc text-white text-base pl-20 capitalize max-lg:text-xs">
                 <li>
                     <p>nomor telephone:</p>
-                    <p>0815-1512-4120</p>
+                    <a href="tel:+62815-1512-4120">0815-1512-4120</a>
                 </li>
                 <li>
                     <p>nomor what's app</p>
-                    <p>0815-1512-4120</p>
+                    <a href="tel:+62815-1512-4120">0815-1512-4120</a>
                 </li>
             </ul>
         </div>
@@ -27,22 +28,23 @@
             <h3 class="text-yellow-500 font-extrabold text-lg uppercase mb-0.5 max-lg:text-md">layanan situs</h3>
             <ul class="list-disc text-white text-base pl-7 capitalize max-lg:text-xs">
                 <li>
-                    <a href="">beranda</a>
+                    <a href="/dashboard">beranda</a>
                 </li>
                 <li>
-                    <a href="">jasa sewa</a>
+                    <a href="/dashboard#rentalCard">jasa sewa</a>
                 </li>
                 <li>
-                    <a href="">tentang kami</a>
+                    <a href="/about">tentang kami</a>
                 </li>
                 <li>
-                    <a href="">lokasi</a>
+                    <a href="/about#located">lokasi</a>
                 </li>
             </ul>
         </div>
     </div>
 
     <div class="mx-auto h-[110px] bg-black flex justify-center items-center">
+        <p class="text-yellow-500 font-base font-normal text-base max-lg:text-xs">© 2024 Anugerah Forklift Megantara All Right Reserved️.</p>
         <p class="text-yellow-500 font-base font-normal text-base max-lg:text-xs">© 2024 Anugerah Forklift Megantara All Right Reserved️.</p>
     </div>
 </section>

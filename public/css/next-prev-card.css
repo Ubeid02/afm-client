@@ -12,7 +12,7 @@ flex: 0 0 auto;
 transition: all 0.3s ease;
 }
 .card-list-rental.active {
-transform: scale(1.05);
+/* transform: scale(1.05); */
 z-index: 1;
 }
 

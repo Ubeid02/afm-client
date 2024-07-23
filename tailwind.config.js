@@ -20,7 +20,10 @@ export default {
       },
       margin: {
         '430' : '430px',
-        '540' : '540'
+        '540' : '540px',
+        '300' : '300px',
+        '430' : '430px',
+        '500' : '500px'
       },
       inset: {
         '540' : '540px'
@@ -42,7 +45,9 @@ export default {
         '4xl' : '0 -5px 10px rgba(0, 0, 0, 0.3)'
       },
       screens: {
-        'desktop': '1440px',
+        'desktop' : '4000px',
+        'desktop2': '1440px',
+        'laptop' : '1024px',
         'xs' : '760px',
       }
     },

@@ -1,0 +1,8 @@
+swiper-container {
+    overflow: visible;
+}
+
+.swiper-slide {
+    width: 458px !important;
+    margin-right: 48px !important;
+}
