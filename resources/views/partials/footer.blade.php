@@ -22,6 +22,10 @@
                     <p>nomor what's app</p>
                     <a href="tel:+62815-1512-4120">0815-1512-4120</a>
                 </li>
+                <li>
+                    <p>Email</p>
+                    <a href="email:Tulus widodo 1705@gmail.com">Tulus widodo 1705@gmail.com</a>
+                </li>
             </ul>
         </div>
         <div class="service mt-7 max-lg:ml-6">
