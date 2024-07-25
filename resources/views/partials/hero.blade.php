@@ -2,7 +2,7 @@
     <div class="container-hero absolute top-0 right-0 left-0 z-20">
         <div class="wrapper">
             <video id="hero-video" class="w-full h-screen object-cover brightness-50" loop muted playsinline>
-                <source src="img/hero2.mp4" type="video/mp4">
+                <source src="img/galery/VID-20240702-WA0009.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <img id="hero-image-1" src="img/hero1.jpg" alt="" class="w-full h-screen bg-repeat-x bg-cover brightness-50 hidden">

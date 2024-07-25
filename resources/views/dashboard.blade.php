@@ -24,8 +24,8 @@
     </section>
 </div>
 
-<div class="information-rental mb-16">
-    <section id="rentalCard" class="rental opacity-0 transform -translate-y-full transition-all duration-1000 ease-out">
+<div class="information-rental lg:mb-36 max-lg:mb-28">
+    <section id="rentalCard" class="rental min-h-[80vh] opacity-0 transform -translate-y-full transition-all duration-1000 ease-out">
         <div class="title mb-5 text-center">
             <h2 class="text-white font-normal text-lg bg-yellow-500 tracking-[7px] uppercase w-fit py-1 pl-4 pr-1 mb-1 mx-auto">alat berat afm</h2>
             <h3 class="text-blue-950 uppercase font-bold text-3xl">jenis alat</h3>
@@ -231,6 +231,55 @@
             <div class="next">
                 <button id="nextBtn" type="submit" class="font-bold text-lg text-[#323232] border border-gray-700 py-1 px-3 rounded-lg hover:text-white hover:bg-[#323232]">>></button>
             </div>
+        </div>
+    </section>
+</div>
+
+<div class="galery-company lg:mb-36 max-lg:mb-28">
+    <section class="galery min-h-[80vh]">
+        <div class="title mb-5 text-center">
+            <h2 class="text-white font-normal text-lg bg-yellow-500 tracking-[7px] uppercase w-fit py-1 pl-4 pr-1 mb-1 mx-auto">Kegiatan afm</h2>
+            <h3 class="text-blue-950 uppercase font-bold text-3xl">galeri perusahaan</h3>
+        </div>
+
+        <div class="container mx-auto p-9 border border-gray-300">
+            <div class="galerys grid grid-cols-3 gap-5">
+                <div class="gallery-item pict cursor-pointer relative w-full pb-[100%]">
+                    <img src="img/galery/satu.jpg" alt="Gambar 1" class="absolute inset-0 w-full h-full object-cover">
+                </div>
+                <div class="gallery-item pict cursor-pointer relative w-full pb-[100%]">
+                    <img src="img/galery/satu.jpg" alt="Gambar 2" class="absolute inset-0 w-full h-full object-cover">
+                </div>
+                <div class="gallery-item pict cursor-pointer relative w-full pb-[100%]">
+                    <img src="img/galery/satu.jpg" alt="Gambar 3" class="absolute inset-0 w-full h-full object-cover">
+                </div>
+                <div class="gallery-item pict cursor-pointer relative w-full pb-[100%]">
+                    <img src="img/galery/satu.jpg" alt="Gambar 4" class="absolute inset-0 w-full h-full object-cover">
+                </div>
+                <div class="gallery-item pict cursor-pointer relative w-full pb-[100%]">
+                    <img src="img/galery/satu.jpg" alt="Gambar 5" class="absolute inset-0 w-full h-full object-cover">
+                </div>
+                <div class="gallery-item pict cursor-pointer relative w-full pb-[100%]">
+                    <img src="img/galery/satu.jpg" alt="Gambar 6" class="absolute inset-0 w-full h-full object-cover">
+                </div>
+                <div class="gallery-item vid cursor-pointer relative w-full pb-[100%]">
+                    <video src="img/hero2.mp4" class="absolute inset-0 w-full h-full object-cover"></video>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal untuk tampilan galeri penuh -->
+        <div id="galleryModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center hidden z-50">
+            <button id="prevButton" class="absolute left-4 text-white text-4xl">&lt;</button>
+            <button id="nextButton" class="absolute right-4 text-white text-4xl">&gt;</button>
+            <div class="max-w-4xl max-h-full relative">
+                <img id="modalImage" src="" alt="" class="max-w-full max-h-[80vh] object-contain">
+                <div id="videoContainer" class="hidden">
+                    <video id="modalVideo" src="" class="max-w-full max-h-[80vh] object-contain" controls></video>
+                </div>
+                <div id="modalCaption" class="text-white text-center mt-4"></div>
+            </div>
+            <button id="closeModal" class="absolute top-4 right-4 text-white text-4xl">&times;</button>
         </div>
     </section>
 </div>

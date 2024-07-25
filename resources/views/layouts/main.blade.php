@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/hero-slide.css">
     <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/galery.css">
 
     {{-- CSS Swiper --}}
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -38,6 +39,7 @@
     <script src="js/dashboard.js"></script>
     <script src="js/next-prev-card.js"></script>
     <script src="js/about.js"></script>
+    <script src="js/galery.js"></script>
 
     {{-- JavaScript Swiper --}}
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
