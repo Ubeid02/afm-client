@@ -16,7 +16,9 @@
             </div>
             <div class="abouttext w-1/2 max-lg:w-11/12 order-1 max-lg:mx-auto">
                 <p class="text-justify max-sm:text-center text-base text-gray-600 mb-5">
-                    Anugerah Forklift Megantara adalah perusahaan yang bergerak di bidang penyewaan alat berat yang telah beroperasi selama lebih dari dua dekade. Dengan komitmen untuk memberikan solusi terbaik bagi kebutuhan konstruksi, pertambangan, dan berbagai proyek infrastruktur, PT. Mandiri Utama menawarkan berbagai macam alat berat berkualitas tinggi yang meliputi excavator, bulldozer, crane, dan wheel loader.
+                    Anugerah Forklift Megantara adalah perusahaan yang bergerak di bidang penyewaan alat berat yang telah beroperasi sejak 2003 di bagian bidang jasa dan penyewaan. 
+                    Dengan komitmen untuk memberikan solusi terbaik bagi kebutuhan konstruksi, pertambangan, dan berbagai proyek infrastruktur, 
+                    PT. Mandiri Utama menawarkan berbagai macam alat berat berkualitas tinggi yang meliputi crane, forklift, dan fuso.
                 </p>
                 <a href="" class="border border-gray-600 rounded-md text-gray-600 text-base px-3 py-1.5 uppercase hover:bg-gray-600 hover:text-white">lihat selengkapnya</a>
             </div>
@@ -142,7 +144,7 @@
                                 <div class="icon-card bg-yellow-500 rounded-full w-fit max-lg:m-3 max-[760px]:m-7 min-[1440px]:m-4 min-[1024px]:m-3">
                                     <svg class="w-12 h-12 p-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill="white" d="M230.17 13.71a12 12 0 0 0-11.82-.3L101 76H32a20 20 0 0 0-20 20v104a20 20 0 0 0 20 20h88a20 20 0 0 0 20-20v-32a11.9 11.9 0 0 0-.51-3.45L118.32 94L212 44v112h-12v-4a12 12 0 0 0-24 0v8a20 20 0 0 0 20 20h20a20 20 0 0 0 20-20V24a12 12 0 0 0-5.83-10.29M95.07 100l16.8 56H76v-56ZM52 100v56H36v-56Zm-16 96v-16h80v16Z"/></svg>
                                 </div>
-                                <span class="text-white font-bold text-2xl uppercase">Crane 70 Ton</span>
+                                <span class="text-white font-bold text-2xl uppercase">Crane 7 Ton</span>
                             </div>
                             <div class="tools-img h-auto w-10/12 mx-auto -mt-5 max-[760px]:-mt-12">
                                 <img src="img/crane-xcmg.png" alt="crane-xcmg" class="h-full w-full">
