@@ -15,7 +15,7 @@
     </div>
     <div class="flex items-center relative z-20 max-w-xl mb-40 lg:mb-32 sm:mb-14 max-[760px]:mb-5">
         <div id="text-content" class="text-lo text-white mx-20 my-48 opacity-0 transform translate-y-full transition-all duration-1000 ease-out">
-            <h1 class="uppercase font-extrabold text-3xl">pusat layananan alat berat</h1>
+            <h1 class="uppercase font-extrabold text-3xl">pusat layanan alat berat</h1>
             <p class="text-md mb-3 font-medium">pusat sewa alat berat dengan berbagai jenis alat berat yang siap kami tawarkan untuk segala jenis kebutuhan pekerjaan proyek</p>
             <div>
                 <a class="uppercase z-50 text-md font-bold bg-yellow-500 hover:bg-yellow-600 py-2 px-3 rounded-lg cursor-pointer" href="#rentalCard">lihat disini</a>
