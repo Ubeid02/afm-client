@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const galleryItems = document.querySelectorAll('.gallery-item');
     const modal = document.getElementById('galleryModal');
     const modalImage = document.getElementById('modalImage');
-    const modalVideo = document.getElementById('modalVideo');
     const videoContainer = document.getElementById('videoContainer');
     const modalCaption = document.getElementById('modalCaption');
     const closeModal = document.getElementById('closeModal');
@@ -18,14 +17,17 @@ document.addEventListener('DOMContentLoaded', function() {
         videoContainer.classList.toggle('hidden', !isVideo);
 
         if (isVideo) {
-            modalVideo.src = item.querySelector('video').src;
-            modalVideo.load(); // Memuat ulang video
+            const iframe = item.querySelector('iframe');
+            const videoId = iframe.getAttribute('data-video-id');
+            videoContainer.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
         } else {
             modalImage.src = item.querySelector('img').src;
+            modalImage.style.maxWidth = 'none';
+            modalImage.style.maxHeight = '80vh';
         }
 
-        const itemDate = new Date().toLocaleDateString(); // You might want to get this from your data
-        modalCaption.textContent = `${item.querySelector('img, video').alt || 'Video'} - ${itemDate}`;
+        const itemDate = new Date().toLocaleDateString();
+        modalCaption.textContent = `${isVideo ? 'Video' : item.querySelector('img').alt} - ${itemDate}`;
         currentIndex = index;
     }
 
@@ -38,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     closeModal.addEventListener('click', () => {
         modal.classList.add('hidden');
-        modalVideo.pause();
+        videoContainer.innerHTML = ''; // Stop video playback
     });
 
     prevButton.addEventListener('click', () => {
@@ -49,10 +51,5 @@ document.addEventListener('DOMContentLoaded', function() {
     nextButton.addEventListener('click', () => {
         currentIndex = (currentIndex + 1) % galleryItems.length;
         showItem(currentIndex);
-    });
-
-    // Tambahkan event listener untuk menangani kesalahan video
-    modalVideo.addEventListener('error', function(e) {
-        console.error('Video error:', e);
     });
 });
