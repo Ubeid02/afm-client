@@ -216,22 +216,28 @@
                     <img src="img/galery/satu.jpg" alt="Gambar 1" class="absolute inset-0 w-full h-full object-cover">
                 </div>
                 <div class="gallery-item pict cursor-pointer relative w-full pb-[100%]">
-                    <img src="img/galery/satu.jpg" alt="Gambar 2" class="absolute inset-0 w-full h-full object-cover">
+                    <img src="img/galery/Crane.webp" alt="Gambar 2" class="absolute inset-0 w-full h-full object-cover">
                 </div>
                 <div class="gallery-item pict cursor-pointer relative w-full pb-[100%]">
-                    <img src="img/galery/satu.jpg" alt="Gambar 3" class="absolute inset-0 w-full h-full object-cover">
+                    <img src="img/galery/Forklift2.webp" alt="Gambar 3" class="absolute inset-0 w-full h-full object-cover">
                 </div>
                 <div class="gallery-item pict cursor-pointer relative w-full pb-[100%]">
-                    <img src="img/galery/satu.jpg" alt="Gambar 4" class="absolute inset-0 w-full h-full object-cover">
+                    <img src="img/galery/Forklift3.webp" alt="Gambar 4" class="absolute inset-0 w-full h-full object-cover">
                 </div>
                 <div class="gallery-item pict cursor-pointer relative w-full pb-[100%]">
-                    <img src="img/galery/satu.jpg" alt="Gambar 5" class="absolute inset-0 w-full h-full object-cover">
+                    <img src="img/galery/Forklift4.webp" alt="Gambar 5" class="absolute inset-0 w-full h-full object-cover">
                 </div>
                 <div class="gallery-item pict cursor-pointer relative w-full pb-[100%]">
-                    <img src="img/galery/satu.jpg" alt="Gambar 6" class="absolute inset-0 w-full h-full object-cover">
+                    <img src="img/galery/Crane2.webp" alt="Gambar 6" class="absolute inset-0 w-full h-full object-cover">
                 </div>
                 <div class="gallery-item vid cursor-pointer relative w-full pb-[100%]">
-                    <video src="img/hero2.mp4" class="absolute inset-0 w-full h-full object-cover"></video>
+                    <iframe width="468" height="315" src="https://www.youtube.com/embed/CSVXV_ggmZg?si=3vuuGb6mQcsUosR4" class="absolute inset-0 w-full h-full object-cover"></iframe>
+                </div>
+                <div class="gallery-item vid cursor-pointer relative w-full pb-[100%]">
+                    <iframe width="468" height="315" src="https://youtube.com/embed/ahTEdVGRHvA?si=h21TbDfBPH5S5HH8" class="absolute inset-0 w-full h-full object-cover"></iframe>
+                </div>
+                <div class="gallery-item vid cursor-pointer relative w-full pb-[100%]">
+                    <iframe width="468" height="315" src="https://youtube.com/embed/nCg-fP6i8e0" class="absolute inset-0 w-full h-full object-cover"></iframe>
                 </div>
             </div>
         </div>
