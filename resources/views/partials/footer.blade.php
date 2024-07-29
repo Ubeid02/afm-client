@@ -8,7 +8,6 @@
             <div class="about">
                 <p class="text-white text-base mb-3 max-lg:text-xs">Menyediakan alat berat dengan jenis sangat lengkap untuk keperluan: konstruksi, pembangunan, penambangan, dan keperluan lainnya.</p>
                 <a href="#" class="text-white text-base max-lg:text-xs">Jl. Warujayeng - Kediri, Tanjungtani, Kec. Prambon, Kabupaten Nganjuk, Jawa Timur, Indonesia.</a>
-                <a href="#" class="text-white text-base max-lg:text-xs">Jl. Warujayeng - Kediri, Tanjungtani, Kec. Prambon, Kabupaten Nganjuk, Jawa Timur, Indonesia.</a>
             </div>
         </div>
         <div class="contact mt-7 lg:ml-6 max-sm:ml-0">
@@ -21,10 +20,6 @@
                 <li>
                     <p>nomor what's app</p>
                     <a href="tel:+62815-1512-4120">0815-1512-4120</a>
-                </li>
-                <li>
-                    <p>Email</p>
-                    <a href="email:Tulus widodo 1705@gmail.com">Tulus widodo 1705@gmail.com</a>
                 </li>
             </ul>
         </div>
@@ -48,7 +43,6 @@
     </div>
 
     <div class="mx-auto h-[110px] bg-black flex justify-center items-center">
-        <p class="text-yellow-500 font-base font-normal text-base max-lg:text-xs">© 2024 Anugerah Forklift Megantara All Right Reserved️.</p>
         <p class="text-yellow-500 font-base font-normal text-base max-lg:text-xs">© 2024 Anugerah Forklift Megantara All Right Reserved️.</p>
     </div>
 </section>
