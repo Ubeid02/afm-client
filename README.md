@@ -64,3 +64,14 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## About the Project
+
+This project is a **Company Profile Website** for a business in the heavy equipment rental industry. The website is designed to enhance the company's online presence and make it easier for clients to learn about the services provided. Key features include:
+
+- A modern, responsive web design using **Laravel** and **Tailwind CSS**.
+- A comprehensive overview of the company's services, including equipment rental options and pricing.
+- Easy-to-navigate sections for potential customers to understand the business offerings.
+
+Feel free to explore the project and codebase for more details on the development process!
+
